@@ -23,6 +23,7 @@ public class Ejercicio_04 {
         fotografias.renameTo(new File(misCosas + "\\" + fotografias.getName()));
         libros.renameTo(new File(misCosas + "\\" + libros.getName()));
         
+                
         for(int i = 65; i <= 90; i++){
             new File(alfabeto.getAbsolutePath() + "\\" + Character.toString((char) i)).mkdir();
         }
